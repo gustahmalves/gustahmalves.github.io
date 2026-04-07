@@ -63,7 +63,7 @@ button { font: inherit; cursor: pointer; }
   background: var(--accent); box-shadow: 0 0 0 6px rgba(34, 197, 94, 0.14);
 }
 
-.section-header { max-width: 760px; margin-bottom: 2.5rem; }
+.section-header { max-width: 860px; margin-bottom: 2.5rem; }
 .section-header.compact { margin-bottom: 1.5rem; }
 .section-header h2 {
   margin: 1rem 0 0.8rem; font-size: clamp(2rem, 5vw, 3.2rem);

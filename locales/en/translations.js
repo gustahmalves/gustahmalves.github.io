@@ -153,7 +153,6 @@ window.TRANSLATIONS.en = {
   formMessage: "Tell us about your testing project",
   formSuccess: "Thanks! This prototype is front-end only, but the form interaction is ready to be integrated.",
   footerTagline: "Secure, flexible and inclusive assessment delivery.",
-  footerText: "Concept website built from the information currently presented in Prepona’s public website, redesigned with a stronger enterprise presence and multilingual structure.",
   footerLinksTitle: "Explore",
   footerTrustTitle: "Institutional foundations",
   footerTrust1: "Privacy and data protection",

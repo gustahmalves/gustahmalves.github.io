@@ -153,7 +153,6 @@ window.TRANSLATIONS.pt = {
   formMessage: "Conte-nos sobre seu projeto de avaliação",
   formSuccess: "Obrigado! Este protótipo é apenas front-end, mas a interação do formulário já está pronta para integração.",
   footerTagline: "Entrega de avaliações segura, flexível e inclusiva.",
-  footerText: "Site-conceito criado a partir das informações atualmente presentes no site público da Prepona, redesenhado com uma presença enterprise mais forte e estrutura multilíngue.",
   footerLinksTitle: "Explorar",
   footerTrustTitle: "Bases institucionais",
   footerTrust1: "Privacidade e proteção de dados",
