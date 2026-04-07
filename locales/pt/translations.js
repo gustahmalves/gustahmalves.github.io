@@ -27,7 +27,7 @@ window.TRANSLATIONS.pt = {
   value4: "Acessibilidade e suporte multilíngue",
   solutionsEyebrow: "Soluções",
   solutionsTitle: "Uma estrutura mais simples para operações sérias de avaliação.",
-  solutionsText: "Esta versão mantém as principais informações públicas do site atual da Prepona, mas apresenta tudo de forma mais leve e fácil de manter.",
+  solutionsText: "A Prepona oferece soluções modernas em avaliação com testes presenciais offline, remotos e mobile — combinando segurança e flexibilidade. Com uma poderosa plataforma de conteúdo e controle inteligente de CTs, transformamos a forma de criar, aplicar e gerenciar avaliações.",
   solution1Title: "Centros de teste",
   solution1Text: "Aplicação segura para provas presenciais, incluindo fluxos que reduzem a dependência da internet local durante a sessão.",
   solution2Title: "Testes remotos",
@@ -63,5 +63,5 @@ window.TRANSLATIONS.pt = {
   formMessage: "Conte sobre seu projeto",
   formSubmit: "Enviar",
   formSuccess: "Protótipo de formulário enviado.",
-  footerText: "Conceito institucional minimalista baseado na estrutura e nas informações públicas atuais do site."
+  footerText: "2026 PREPONA Sistemas de Testagem e Avaliação S.A."
 };

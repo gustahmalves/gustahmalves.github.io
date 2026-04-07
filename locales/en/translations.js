@@ -27,7 +27,7 @@ window.TRANSLATIONS.en = {
   value4: "Accessibility and multilingual support",
   solutionsEyebrow: "Solutions",
   solutionsTitle: "A simpler structure for serious assessment operations.",
-  solutionsText: "This version keeps the main public information from the current Prepona website but presents it in a lighter and easier-to-maintain layout.",
+  solutionsText: "Prepona delivers modern assessment solutions with in-person offline, remote, and mobile testing — combining security and flexibility. With a powerful content platform and intelligent test center (TC) control, we transform how assessments are created, delivered, and managed.",
   solution1Title: "Test centers",
   solution1Text: "Secure delivery for in-person testing, including workflows that reduce dependence on local internet during the exam session.",
   solution2Title: "Remote testing",
@@ -63,5 +63,5 @@ window.TRANSLATIONS.en = {
   formMessage: "Tell us about your project",
   formSubmit: "Send",
   formSuccess: "Form prototype submitted.",
-  footerText: "Minimal institutional concept based on the current public site structure and information."
+  footerText: "2026 PREPONA Testing and Assessment Systems S.A."
 };
