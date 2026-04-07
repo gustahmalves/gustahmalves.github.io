@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =======================================================
+       META / SEO
+       ======================================================= -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prepona | Secure Digital Assessment Delivery</title>
+  <meta name="description" content="Prepona delivers secure digital assessments for test centers, remote environments and mobile devices, with multilingual support, accessibility features and offline-ready workflows." />
+
+  <!-- =======================================================
+       MAIN STYLESHEET
+       ======================================================= -->
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <!-- =======================================================
+       LOCALE FILES
+       English is the primary language, but PT and ES are also available.
+       ======================================================= -->
+  <script src="./locales/en/translations.js" defer></script>
+  <script src="./locales/pt/translations.js" defer></script>
+  <script src="./locales/es/translations.js" defer></script>
+
+  <!-- =======================================================
+       MAIN JAVASCRIPT
+       ======================================================= -->
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <!-- =======================================================
+       HEADER / TOP NAVIGATION
+       ======================================================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Prepona home">
+        <div class="brand-mark">P</div>
+        <div class="brand-text">
+          <strong>PREPONA</strong>
+          <span data-i18n="brandSubtitle">Secure Assessment Delivery</span>
+        </div>
+      </a>
+
+      <!-- ===================================================
+           MOBILE MENU BUTTON
+           =================================================== -->
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navWrap">
+        <span data-i18n="menu">Menu</span>
+      </button>
+
+      <!-- ===================================================
+           NAVIGATION + LANGUAGE SWITCHER
+           =================================================== -->
+      <div class="nav-wrap" id="navWrap">
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#solutions" data-i18n="navSolutions">Solutions</a>
+          <a href="#how-it-works" data-i18n="navHowItWorks">How it works</a>
+          <a href="#industries" data-i18n="navIndustries">Industries</a>
+          <a href="#platform" data-i18n="navPlatform">Platform</a>
+          <a href="#about" data-i18n="navAbout">About</a>
+          <a href="#faq" data-i18n="navFaq">FAQ</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+
+        <!-- ===================================================
+             LANGUAGE SELECTOR
+             =================================================== -->
+        <div class="lang-switcher" aria-label="Language switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="pt">PT</button>
+          <button class="lang-btn" data-lang="es">ES</button>
+        </div>
+
+        <a href="#contact" class="btn btn-primary" data-i18n="headerCta">Talk to specialists</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================
+         HERO SECTION
+         ======================================================= -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow" data-i18n="heroEyebrow">Trusted assessment technology</span>
+          <h1 data-i18n="heroTitle">Secure digital testing for test centers, remote delivery and mobile scale.</h1>
+          <p data-i18n="heroText">
+            Prepona delivers high-stakes assessments with operational flexibility, multilingual interfaces, accessibility support and workflows that can continue even when local internet connectivity is limited.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary" data-i18n="heroPrimaryCta">Schedule a conversation</a>
+            <a href="#solutions" class="btn btn-secondary" data-i18n="heroSecondaryCta">Explore solutions</a>
+          </div>
+          <div class="hero-metrics">
+            <span class="pill" data-i18n="heroPill1">High-security delivery</span>
+            <span class="pill" data-i18n="heroPill2">Online and offline options</span>
+            <span class="pill" data-i18n="heroPill3">Desktop, notebook, phone and tablet</span>
+          </div>
+        </div>
+
+        <!-- ===================================================
+             HERO VISUAL PANEL
+             =================================================== -->
+        <div class="hero-panel">
+          <div class="status-chip" data-i18n="heroPanelBadge">Built for mission-critical exams</div>
+          <div class="mock-shell">
+            <div class="mock-card top">
+              <p class="mock-title" data-i18n="heroPanelTitle1">Assessment control console</p>
+              <div class="mock-line"></div>
+              <div class="mock-line medium"></div>
+              <div class="mock-line short"></div>
+              <div class="mock-tag-list">
+                <span class="mock-tag" data-i18n="heroTag1">Identity check</span>
+                <span class="mock-tag" data-i18n="heroTag2">Session control</span>
+                <span class="mock-tag" data-i18n="heroTag3">Encrypted delivery</span>
+                <span class="mock-tag" data-i18n="heroTag4">Remote support</span>
+              </div>
+            </div>
+
+            <div class="mock-row">
+              <div class="mock-card">
+                <p class="mock-title" data-i18n="heroPanelTitle2">Remote secure app</p>
+                <div class="mock-line"></div>
+                <div class="mock-line short"></div>
+                <div class="mock-tag-list">
+                  <span class="mock-tag" data-i18n="heroTag5">Lockdown mode</span>
+                  <span class="mock-tag" data-i18n="heroTag6">Second device option</span>
+                </div>
+              </div>
+              <div class="mock-card">
+                <p class="mock-title" data-i18n="heroPanelTitle3">Mobile and mass testing</p>
+                <div class="mock-line medium"></div>
+                <div class="mock-line short"></div>
+                <div class="mock-tag-list">
+                  <span class="mock-tag" data-i18n="heroTag7">Low-bandwidth ready</span>
+                  <span class="mock-tag" data-i18n="heroTag8">CAT compatible</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         TRUST BAR
+         ======================================================= -->
+    <section class="trust-bar section-sm">
+      <div class="container">
+        <div class="trust-grid">
+          <div class="trust-item" data-i18n="trust1">Secure test center operations</div>
+          <div class="trust-item" data-i18n="trust2">Remote assessment options</div>
+          <div class="trust-item" data-i18n="trust3">Offline-capable workflows</div>
+          <div class="trust-item" data-i18n="trust4">Mobile-first delivery</div>
+          <div class="trust-item" data-i18n="trust5">Accessibility and multilingual UX</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         SOLUTIONS SECTION
+         ======================================================= -->
+    <section class="section" id="solutions">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow" data-i18n="solutionsEyebrow">Solutions</span>
+          <h2 data-i18n="solutionsTitle">A complete institutional platform for secure assessment delivery.</h2>
+          <p data-i18n="solutionsText">
+            The current Prepona offering combines secure operations, candidate support and flexible deployment models for organizations that need dependable assessment execution at scale.
+          </p>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card solution-card">
+            <div class="icon">01</div>
+            <h3 data-i18n="solution1Title">Testing at test centers</h3>
+            <p data-i18n="solution1Text">Deliver complex exams anywhere in the world with a high degree of security, without depending on local internet during the live session.</p>
+            <ul>
+              <li data-i18n="solution1Bullet1">Prepona TestCentre-Mng® (TCM) for secure session control</li>
+              <li data-i18n="solution1Bullet2">Encrypted bundle synchronization before test day</li>
+              <li data-i18n="solution1Bullet3">Proctor validation and terminal distribution workflows</li>
+              <li data-i18n="solution1Bullet4">Encrypted mirrored records for loss mitigation</li>
+            </ul>
+          </article>
+
+          <article class="card solution-card">
+            <div class="icon">02</div>
+            <h3 data-i18n="solution2Title">Remote tests</h3>
+            <p data-i18n="solution2Text">Apply high-stakes exams at home or in the office through multiple delivery models aligned to different levels of security and operational needs.</p>
+            <ul>
+              <li data-i18n="solution2Bullet1">Prepona Test-App® blocks unauthorized software and functions</li>
+              <li data-i18n="solution2Bullet2">Online and offline delivery with or without remote proctoring</li>
+              <li data-i18n="solution2Bullet3">Smartphone as a second device to reinforce security</li>
+              <li data-i18n="solution2Bullet4">Alternative models for broader online deployment</li>
+            </ul>
+          </article>
+
+          <article class="card solution-card">
+            <div class="icon">03</div>
+            <h3 data-i18n="solution3Title">Mass testing via mobile devices</h3>
+            <p data-i18n="solution3Text">Expand access for audiences with low bandwidth, expensive data packages or limited access to laptops and desktops.</p>
+            <ul>
+              <li data-i18n="solution3Bullet1">Delivery on smartphones and tablets</li>
+              <li data-i18n="solution3Bullet2">Suitable for a broad range of models, including CAT</li>
+              <li data-i18n="solution3Bullet3">Designed to reduce the impact on data consumption</li>
+              <li data-i18n="solution3Bullet4">Supports inclusion at scale</li>
+            </ul>
+          </article>
+
+          <article class="card solution-card">
+            <div class="icon">04</div>
+            <h3 data-i18n="solution4Title">Program management support</h3>
+            <p data-i18n="solution4Text">Secure delivery of tests and reports for program managers, helping institutions govern complex operations with clarity.</p>
+            <ul>
+              <li data-i18n="solution4Bullet1">Administrative visibility over sessions</li>
+              <li data-i18n="solution4Bullet2">Contact with test takers without disturbing other participants</li>
+              <li data-i18n="solution4Bullet3">Reduced fraud exposure and stronger risk mitigation</li>
+              <li data-i18n="solution4Bullet4">Centralized operational console</li>
+            </ul>
+          </article>
+
+          <article class="card solution-card">
+            <div class="icon">05</div>
+            <h3 data-i18n="solution5Title">Flexible ecosystem integration</h3>
+            <p data-i18n="solution5Text">Choose Prepona systems end to end or integrate with your own item banks, registration, payments, scheduling and management platforms.</p>
+            <ul>
+              <li data-i18n="solution5Bullet1">Use Prepona authoring and item bank or your own stack</li>
+              <li data-i18n="solution5Bullet2">Support for registration, payment and scheduling flows</li>
+              <li data-i18n="solution5Bullet3">Reports and digital certificates in external LMS environments</li>
+              <li data-i18n="solution5Bullet4">Multilingual navigation and test content configuration</li>
+            </ul>
+          </article>
+
+          <article class="card solution-card">
+            <div class="icon">06</div>
+            <h3 data-i18n="solution6Title">Accessibility and candidate experience</h3>
+            <p data-i18n="solution6Text">Support more inclusive operations with accommodations for varied user needs and better transparency about physical infrastructure.</p>
+            <ul>
+              <li data-i18n="solution6Bullet1">Adapted experiences for visual or hearing impairments</li>
+              <li data-i18n="solution6Bullet2">Support for wheelchair access considerations</li>
+              <li data-i18n="solution6Bullet3">Local center information such as parking and canteens</li>
+              <li data-i18n="solution6Bullet4">Improved confidence for candidates and institutions</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         HOW IT WORKS SECTION
+         ======================================================= -->
+    <section class="section" id="how-it-works">
+      <div class="container split-grid">
+        <div>
+          <div class="section-header">
+            <span class="eyebrow" data-i18n="howEyebrow">How it works</span>
+            <h2 data-i18n="howTitle">From secure preparation to monitored delivery and reporting.</h2>
+            <p data-i18n="howText">Prepona’s institutional value comes from combining security controls, delivery flexibility and operational continuity in one coordinated flow.</p>
+          </div>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <span>✓</span>
+              <div>
+                <strong data-i18n="howFeature1Title">Pre-session preparation</strong>
+                <div data-i18n="howFeature1Text">Encrypted content can be synchronized securely in advance, reducing live-session dependence on local connectivity.</div>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span>✓</span>
+              <div>
+                <strong data-i18n="howFeature2Title">Identity and session control</strong>
+                <div data-i18n="howFeature2Text">Administrators and proctors can verify identities, manage sessions and communicate through a single control console.</div>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span>✓</span>
+              <div>
+                <strong data-i18n="howFeature3Title">Flexible delivery modes</strong>
+                <div data-i18n="howFeature3Text">Deploy in test centers, remotely or on mobile devices according to audience profile, infrastructure and risk tolerance.</div>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span>✓</span>
+              <div>
+                <strong data-i18n="howFeature4Title">Post-session assurance</strong>
+                <div data-i18n="howFeature4Text">Mirrored encrypted records and reporting workflows strengthen reliability for institutions and program managers.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="process-steps">
+            <div class="process-step">
+              <div class="num">1</div>
+              <h3 data-i18n="step1Title">Plan the operation</h3>
+              <p data-i18n="step1Text">Define whether the program runs in centers, remotely, on mobile devices or through a blended model.</p>
+            </div>
+            <div class="process-step">
+              <div class="num">2</div>
+              <h3 data-i18n="step2Title">Prepare content and infrastructure</h3>
+              <p data-i18n="step2Text">Sync encrypted test bundles, align interfaces, languages, accommodations and integration requirements.</p>
+            </div>
+            <div class="process-step">
+              <div class="num">3</div>
+              <h3 data-i18n="step3Title">Validate candidates and deliver securely</h3>
+              <p data-i18n="step3Text">Use controlled session tools, identity checks and the appropriate security model for each delivery format.</p>
+            </div>
+            <div class="process-step">
+              <div class="num">4</div>
+              <h3 data-i18n="step4Title">Monitor, report and integrate</h3>
+              <p data-i18n="step4Text">Send reporting outputs to managers and connect the resulting data with your surrounding systems when needed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         INDUSTRIES SECTION
+         ======================================================= -->
+    <section class="section" id="industries">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow" data-i18n="industriesEyebrow">Who Prepona serves</span>
+          <h2 data-i18n="industriesTitle">Designed for organizations that cannot compromise on reliability.</h2>
+          <p data-i18n="industriesText">The existing site already positions Prepona as an ideal partner for universities, school districts, awarding bodies and institutions that need assessments at scale.</p>
+        </div>
+
+        <div class="grid grid-4">
+          <article class="card industry-card">
+            <h3 data-i18n="industry1Title">Awarding bodies</h3>
+            <p data-i18n="industry1Text">Support certification and high-stakes exam delivery with stronger risk mitigation and flexible models.</p>
+          </article>
+          <article class="card industry-card">
+            <h3 data-i18n="industry2Title">Universities</h3>
+            <p data-i18n="industry2Text">Expand access to simple assessments, complex supervised exams and broader candidate coverage.</p>
+          </article>
+          <article class="card industry-card">
+            <h3 data-i18n="industry3Title">School districts and education networks</h3>
+            <p data-i18n="industry3Text">Run large-scale assessments even where connectivity quality and device availability are uneven.</p>
+          </article>
+          <article class="card industry-card">
+            <h3 data-i18n="industry4Title">Government and corporate programs</h3>
+            <p data-i18n="industry4Text">Coordinate secure and accountable testing operations for regulated or mission-critical environments.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         PLATFORM / DIFFERENTIATORS SECTION
+         ======================================================= -->
+    <section class="section" id="platform">
+      <div class="container platform-grid">
+        <div class="card">
+          <div class="section-header compact">
+            <span class="eyebrow" data-i18n="platformEyebrow">Platform flexibility</span>
+            <h2 data-i18n="platformTitle">Use Prepona your way.</h2>
+            <p data-i18n="platformText">The site content makes it clear that institutions can adopt Prepona end to end or combine its capabilities with their existing ecosystem.</p>
+          </div>
+
+          <div class="bullet-list">
+            <div class="bullet-item"><span class="dot"></span><div data-i18n="platformBullet1">Use Prepona’s authoring tools and item bank, or keep your own content systems.</div></div>
+            <div class="bullet-item"><span class="dot"></span><div data-i18n="platformBullet2">Choose your own registration, payment and scheduling stack, or rely on Prepona systems.</div></div>
+            <div class="bullet-item"><span class="dot"></span><div data-i18n="platformBullet3">Send reports and digital certificates to your LMS or management platform, or use Prepona tools.</div></div>
+            <div class="bullet-item"><span class="dot"></span><div data-i18n="platformBullet4">Configure tests in one language and navigation controls in another when required.</div></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-header compact">
+            <span class="eyebrow" data-i18n="diffEyebrow">Key differentiators</span>
+            <h2 data-i18n="diffTitle">Security, inclusion and operational resilience.</h2>
+            <p data-i18n="diffText">This concept site translates the current information architecture into a more modern institutional presentation without losing the substance of the existing offering.</p>
+          </div>
+
+          <div class="bullet-list">
+            <div class="bullet-item"><span class="dot"></span><div data-i18n="diffBullet1">High-security delivery for test centers and remote settings</div></div>
+            <div class="bullet-item"><span class="dot"></span><div data-i18n="diffBullet2">Offline-capable workflows to reduce dependence on unstable internet</div></div>
+            <div class="bullet-item"><span class="dot"></span><div data-i18n="diffBullet3">Mobile-first delivery for broader access and lower data burden</div></div>
+            <div class="bullet-item"><span class="dot"></span><div data-i18n="diffBullet4">Accessibility options and clearer candidate support information</div></div>
+            <div class="bullet-item"><span class="dot"></span><div data-i18n="diffBullet5">Support for remote proctoring and multi-device security approaches</div></div>
+            <div class="bullet-item"><span class="dot"></span><div data-i18n="diffBullet6">Multilingual interfaces and institutional integration readiness</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         ABOUT SECTION
+         ======================================================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="cta-box">
+          <span class="eyebrow" data-i18n="aboutEyebrow">About Prepona</span>
+          <h2 data-i18n="aboutTitle">A heavier, more modern institutional presence for a serious assessment platform.</h2>
+          <p data-i18n="aboutText">
+            This website concept reframes the current Prepona content into an enterprise-grade digital presence: clearer hierarchy, stronger conversion points, multilingual support and a more premium visual language for clients that need confidence from the first interaction.
+          </p>
+          <div class="cta-actions">
+            <a href="#contact" class="btn btn-primary" data-i18n="aboutCta1">Request a presentation</a>
+            <a href="#faq" class="btn btn-secondary" data-i18n="aboutCta2">Review FAQs</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         FAQ SECTION
+         ======================================================= -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow" data-i18n="faqEyebrow">Frequently asked questions</span>
+          <h2 data-i18n="faqTitle">The current site’s key information, reorganized for clarity.</h2>
+          <p data-i18n="faqText">These answers summarize the main promises and operational options already present in Prepona’s public website.</p>
+        </div>
+
+        <div class="grid">
+          <div class="faq-item active">
+            <button class="faq-question" type="button">
+              <span data-i18n="faqQ1">Can Prepona operate without depending on live internet at the moment of testing?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer" data-i18n="faqA1">Yes. Test-center delivery is described as not requiring internet during the session itself, since encrypted test bundles can be synchronized beforehand and controlled through the TCM workflow.</div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span data-i18n="faqQ2">Does Prepona support remote testing?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer" data-i18n="faqA2">Yes. The public site describes remote testing options including Prepona Test-App®, online delivery models and additional security measures such as the use of a smartphone as a second device.</div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span data-i18n="faqQ3">Can the platform be used on mobile devices?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer" data-i18n="faqA3">Yes. Prepona highlights mass testing through smartphones and tablets, especially for audiences with poor internet access, costly data plans or limited access to traditional computers.</div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span data-i18n="faqQ4">Can institutions keep their own surrounding systems?</span>
+              <span>+</span>
+            </button>
+            <div class="faq-answer" data-i18n="faqA4">Yes. The site explicitly states that clients can choose whether to use Prepona systems or their own tools for item banks, registration, payments, scheduling, reports, certificates and LMS integration.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         CONTACT SECTION
+         ======================================================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="card contact-card">
+          <div class="section-header compact">
+            <span class="eyebrow" data-i18n="contactEyebrow">Contact</span>
+            <h2 data-i18n="contactTitle">Let’s design your testing operation.</h2>
+            <p data-i18n="contactText">Use this concept page as the base for a production site with CRM integration, full CMS management, analytics, multilingual SEO and deeper product pages.</p>
+          </div>
+
+          <div class="grid grid-2">
+            <div>
+              <div class="bullet-list">
+                <div class="bullet-item"><span class="dot"></span><div data-i18n="contactBullet1">Test centers, remote delivery and mobile assessments</div></div>
+                <div class="bullet-item"><span class="dot"></span><div data-i18n="contactBullet2">Accessibility accommodations and multilingual experiences</div></div>
+                <div class="bullet-item"><span class="dot"></span><div data-i18n="contactBullet3">Program reporting, security and system integration</div></div>
+                <div class="bullet-item"><span class="dot"></span><div data-i18n="contactBullet4">Institutional design that better reflects Prepona’s weight</div></div>
+              </div>
+            </div>
+
+            <!-- =================================================
+                 CONTACT FORM
+                 Front-end prototype only
+                 ================================================= -->
+            <form class="grid" id="contactForm">
+              <input type="text" data-placeholder="formName" placeholder="Name" class="field" />
+              <input type="email" data-placeholder="formEmail" placeholder="Email" class="field" />
+              <input type="text" data-placeholder="formOrg" placeholder="Organization" class="field" />
+              <textarea data-placeholder="formMessage" placeholder="Tell us about your testing project" class="field area"></textarea>
+              <button class="btn btn-primary" type="submit" data-i18n="formSubmit">Send request</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =======================================================
+       FOOTER
+       ======================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <div class="brand-mark">P</div>
+            <div class="brand-text">
+              <strong>PREPONA</strong>
+              <span data-i18n="footerTagline">Secure, flexible and inclusive assessment delivery.</span>
+            </div>
+          </div>
+          <p data-i18n="footerText">Concept website built from the information currently presented in Prepona’s public website, redesigned with a stronger enterprise presence and multilingual structure.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footerLinksTitle">Explore</h4>
+          <ul>
+            <li><a href="#solutions" data-i18n="navSolutions">Solutions</a></li>
+            <li><a href="#how-it-works" data-i18n="navHowItWorks">How it works</a></li>
+            <li><a href="#platform" data-i18n="navPlatform">Platform</a></li>
+            <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footerTrustTitle">Institutional foundations</h4>
+          <ul>
+            <li data-i18n="footerTrust1">Privacy and data protection</li>
+            <li data-i18n="footerTrust2">Code of ethics and conduct</li>
+            <li data-i18n="footerTrust3">Accessibility and inclusive delivery</li>
+            <li data-i18n="footerTrust4">Multilingual user experience</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span data-i18n="footerBottomLeft">© Prepona — institutional concept website</span>
+        <span data-i18n="footerBottomRight">English • Português • Español</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
