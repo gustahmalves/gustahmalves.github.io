@@ -9,7 +9,7 @@ function applyLanguage(languageCode) {
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const translationKey = element.getAttribute("data-i18n");
     if (selectedTranslations[translationKey]) {
-      element.textContent = selectedTranslations[translationKey];
+      element.innerHTML = selectedTranslations[translationKey];
     }
   });
 
