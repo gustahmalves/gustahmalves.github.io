@@ -1,7 +1,7 @@
 body { margin: 0; background: #f8fbff; color: #13233c; font-family: Arial, Helvetica, sans-serif; }
 .siteHeader { border-bottom: 1px solid #dbe5f1; background: rgba(248,251,255,0.92); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 50; }
-.siteHeaderInner { max-width: 1120px; margin: 0 auto; padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; position: relative; }
-.siteHeaderBrand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: #13233c; }
+.siteHeaderInner { max-width: 1120px; margin: 0 auto; padding: 0 24px; height: 64px; display: flex; align-items: center; justify-content: space-between; position: relative; }
+.siteHeaderBrand { display: inline-flex; align-items: center; text-decoration: none; color: #13233c; overflow: visible; }
 .siteHeaderBrandMark { width: 38px; height: 38px; border: 1px solid #1e63b6; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; font-size: 16px; background: #1e63b6; color: #ffffff; box-shadow: 0 8px 24px rgba(30,99,182,0.18); }
 .siteHeaderBrandText { font-size: 16px; font-weight: 700; letter-spacing: 0.08em; }
 .siteHeaderToggle { display: none; border: 1px solid #1e63b6; border-radius: 12px; background: #ffffff; color: #13233c; padding: 10px 12px; }
@@ -13,6 +13,8 @@ body { margin: 0; background: #f8fbff; color: #13233c; font-family: Arial, Helve
 .siteHeaderLanguages { display: flex; gap: 8px; }
 .siteHeaderLanguageButton { border: 1px solid #c9d7e8; border-radius: 999px; background: #ffffff; color: #13233c; padding: 8px 10px; }
 .siteHeaderLanguageButton.isActive { border: 1px solid #1e63b6; background: #eef5ff; }
+.siteHeaderBrandLogo { height: 36px; width: auto; display: block; }
+
 
 .heroSection { padding: 110px 24px 72px 24px; background: radial-gradient(circle at top right, rgba(30,99,182,0.12), transparent 28%), radial-gradient(circle at top left, rgba(111,191,75,0.10), transparent 22%); overflow: hidden; }
 .heroSectionInner { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 44px; align-items: center; }
@@ -52,6 +54,9 @@ body { margin: 0; background: #f8fbff; color: #13233c; font-family: Arial, Helve
 .solutionsGridCardIndex { display: inline-block; font-size: 12px; color: #6fbf4b; margin-bottom: 18px; }
 .solutionsGridCardTitle { margin: 0 0 12px 0; font-size: 24px; line-height: 1.2; font-weight: 400; }
 .solutionsGridCardText { margin: 0; font-size: 16px; line-height: 1.7; color: #47627f; }
+.solutionsSectionFooter { text-decoration: none; color: #13233c; font-weight: bold; font-size: 16px; display: inline-block; margin-top: 12px; transition: color 0.2s ease; padding-bottom: 22px;} 
+.solutionsSectionFooter:visited { text-decoration: none; color: #13233c; font-weight: bold; font-size: 16px; display: inline-block; margin-top: 12px; transition: color 0.2s ease; } 
+.solutionsSectionFooter:hover { color: #6fbf4b;}
 
 .capabilitiesSection { padding: 72px 24px; }
 .capabilitiesSectionInner { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
@@ -79,6 +84,7 @@ body { margin: 0; background: #f8fbff; color: #13233c; font-family: Arial, Helve
 .ourClientsGridCardTitle { margin: 0 0 12px 0; font-size: 24px; line-height: 1.2; font-weight: 400; }
 .ourClientsGridCardText { margin: 0; font-size: 16px; line-height: 1.7; color: #47627f; }
 
+/*
 .platformSection { padding: 72px 24px; }
 .platformSectionInner { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; }
 .platformSectionContent { border-top: 1px solid #dbe5f1; padding-top: 24px; }
@@ -87,7 +93,7 @@ body { margin: 0; background: #f8fbff; color: #13233c; font-family: Arial, Helve
 .platformSectionText { margin: 0; font-size: 17px; line-height: 1.7; color: #47627f; }
 .platformSectionList { border-top: 1px solid #dbe5f1; }
 .platformSectionListItem { padding: 24px 0; font-size: 16px; line-height: 1.7; color: #2e4865; border-bottom: 1px solid #dbe5f1; }
-
+*/
 
 .corporateGovernanceSection { padding: 72px 24px; }
 .corporateGovernanceSectionInner { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
@@ -105,6 +111,10 @@ body { margin: 0; background: #f8fbff; color: #13233c; font-family: Arial, Helve
 .aboutSectionEyebrow { display: inline-block; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: #1e63b6; margin-bottom: 16px; }
 .aboutSectionTitle { max-width: 860px; margin: 0 0 16px 0; font-size: 42px; line-height: 1.1; font-weight: 400; letter-spacing: -0.03em; }
 .aboutSectionText { max-width: 760px; margin: 0; font-size: 17px; line-height: 1.7; color: #47627f; }
+.aboutSectionFooter { text-decoration: none; color: #13233c; font-weight: bold; font-size: 16px; display: inline-block; margin-top: 12px; transition: color 0.2s ease; padding-bottom: 22px;} 
+.aboutSectionFooter:visited { text-decoration: none; color: #13233c; font-weight: bold; font-size: 16px; display: inline-block; margin-top: 12px; transition: color 0.2s ease; } 
+.aboutSectionFooter:hover { color: #6fbf4b;}
+
 
 .ourJourneySection { padding: 72px 24px; }
 .ourJourneySectionInner { max-width: 1120px; margin: 0 auto; border-top: 1px solid #dbe5f1; padding-top: 24px; }
