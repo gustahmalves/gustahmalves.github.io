@@ -1,6 +1,7 @@
 window.TRANSLATIONS = window.TRANSLATIONS || {};
 window.currentTranslations = {};
 
+
 function applyLanguage(languageCode) {
   const selectedTranslations = window.TRANSLATIONS[languageCode] || window.TRANSLATIONS.en || {};
   window.currentTranslations = selectedTranslations;
